@@ -2,7 +2,7 @@
 
 ### Notice
 
-This project is unmaintained. See Geeqie for an alternative.
+This fork contains a bug fix.
 
 ### About
 
