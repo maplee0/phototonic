@@ -909,8 +909,8 @@ void ImageViewer::applyCropAndRotation() {
 
         bandTopLeft = imageWidget->mapToImage(imageWidget->mapFromGlobal(bandTopLeft));
         bandBottomRight = imageWidget->mapToImage(imageWidget->mapFromGlobal(bandBottomRight));
-        double scaledX = imageWidget->imageSize().width();
-        double scaledY = imageWidget->imageSize().height();
+        double scaledX = imageWidget->width();
+        double scaledY = imageWidget->height();
         scaledX = viewerImage.width() / scaledX;
         scaledY = viewerImage.height() / scaledY;
 
