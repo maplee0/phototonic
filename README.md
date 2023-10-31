@@ -2,7 +2,7 @@
 
 ### Notice
 
-This fork contains a bug fix.
+This fork contains a cropping bug fix.
 
 ### About
 
